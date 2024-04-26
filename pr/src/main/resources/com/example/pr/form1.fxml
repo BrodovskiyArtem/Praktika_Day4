@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.Integer?>
+<?import javafx.collections.FXCollections?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="347.0" prefWidth="598.0" style="-fx-background-color: #ADD8E6;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.pr.Magazin">
+   <children>
+      <Label layoutX="162.0" layoutY="14.0" prefHeight="43.0" prefWidth="296.0" text="Головна сторінка" textFill="#040543">
+         <font>
+            <Font name="Bell MT" size="36.0" />
+         </font></Label>
+      <Button fx:id="button5" layoutX="353.0" layoutY="81.0" mnemonicParsing="false" onAction="#button5" text="Настільна лампа">
+         <font>
+            <Font name="System Italic" size="12.0" />
+         </font></Button>
+      <Button fx:id="button4" layoutX="246.0" layoutY="81.0" mnemonicParsing="false" onAction="#button4" text="Торшер">
+         <font>
+            <Font name="System Italic" size="12.0" />
+         </font></Button>
+      <Button fx:id="button3" layoutX="135.0" layoutY="81.0" mnemonicParsing="false" onAction="#button3" text="Лампочка">
+         <font>
+            <Font name="System Italic" size="12.0" />
+         </font></Button>
+      <Button fx:id="button2" layoutX="51.0" layoutY="81.0" mnemonicParsing="false" onAction="#button2" text="Люстра">
+         <font>
+            <Font name="System Italic" size="12.0" />
+         </font></Button>
+      <TextField fx:id="TE1" layoutX="188.0" layoutY="124.0" />
+      <TextField fx:id="TE4" layoutX="188.0" layoutY="218.0" prefHeight="25.0" prefWidth="279.0" />
+      <TextField fx:id="TE3" layoutX="188.0" layoutY="188.0" />
+      <TextField fx:id="TE2" layoutX="188.0" layoutY="154.0" />
+      <Button fx:id="button6" layoutX="495.0" layoutY="258.0" mnemonicParsing="false" onAction="#button6" text="Печать" />
+      <ComboBox fx:id="ComboBox1" layoutX="475.0" layoutY="124.0" prefHeight="25.0" prefWidth="94.0">
+         <items>
+            <FXCollections fx:factory="observableArrayList">
+               <Integer fx:value="1" />
+               <Integer fx:value="2" />
+               <Integer fx:value="3" />
+               <Integer fx:value="4" />
+               <Integer fx:value="5" />
+               <Integer fx:value="6" />
+               <Integer fx:value="7" />
+               <Integer fx:value="8" />
+               <Integer fx:value="9" />
+               <Integer fx:value="10" />
+               <Integer fx:value="11" />
+               <Integer fx:value="12" />
+               <Integer fx:value="13" />
+               <Integer fx:value="14" />
+               <Integer fx:value="15" />
+               <Integer fx:value="16" />
+               <Integer fx:value="17" />
+               <Integer fx:value="18" />
+               <Integer fx:value="19" />
+               <Integer fx:value="20" />
+            </FXCollections>
+         </items>
+      </ComboBox>
+      <Label layoutX="14.0" layoutY="219.0" text="Розмір (cм) :">
+         <font>
+            <Font name="Century" size="18.0" />
+         </font></Label>
+      <Label layoutX="14.0" layoutY="189.0" text="Потужність (Вт) :">
+         <font>
+            <Font name="Century" size="18.0" />
+         </font></Label>
+      <Label layoutX="14.0" layoutY="155.0" text="Виробник :">
+         <font>
+            <Font name="Century" size="18.0" />
+         </font></Label>
+      <Label layoutX="11.0" layoutY="125.0" text="Ціна за штуку грн :">
+         <font>
+            <Font name="Century" size="18.0" />
+         </font></Label>
+      <Label layoutX="375.0" layoutY="125.0" text="Кількість :">
+         <font>
+            <Font name="Century" size="18.0" />
+         </font></Label>
+      <Button fx:id="button8" layoutX="221.0" layoutY="258.0" mnemonicParsing="false" onAction="#button8" text="Переглянути інформацію">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
